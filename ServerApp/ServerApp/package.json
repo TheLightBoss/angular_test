@@ -1,0 +1,23 @@
+{
+  "name": "server_app",
+  "version": "1.0.0",
+  "description": "api-request",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "mocha src/test"
+  },
+  "author": "saak_sanya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.1.3",
+    "nodemon": "^2.0.13"
+  }
+}
